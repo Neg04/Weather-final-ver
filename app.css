@@ -1,0 +1,133 @@
+body {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+    background: radial-gradient(621px at 25.3% 13.8%, rgb(255, 255, 255) 0%, rgb(234, 236, 255) 90%);
+}
+
+header {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 30px;
+    color: #1f6f78;
+}
+
+a {
+font-family: 'Alkatra', cursive;
+    text-decoration: none;
+    color: #24527a;
+    font-size: 17px;
+}
+a:hover {
+    color: #2c786c;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    border: 1px solid #eaf6f6;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: #e1f6f4;
+
+}
+
+.weatherforcast {
+    margin-top: 40px;
+    padding-bottom: 15px;
+    border: 1px hidden;
+    border-radius: 20px;
+    background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
+}
+
+.searchButton {
+    background: #e3f6f5;
+    padding: 5px 10px;
+    border: 1px solid #93e4c1;
+    border-radius: 5px;
+    color: #57385c;
+    transition: all 1s ease-out;
+    box-shadow: 1px 2px #e9dadf;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 18px;
+}
+
+.searchButton:hover {
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.col-form-label {
+    margin-top: 10px;
+    border: 1px solid #93e4c1;
+    border-radius: 5px;
+}
+
+.city {
+    margin-top: 50px;
+}
+
+.temp {
+    font-family: 'Alkatra', cursive;
+    font-size: 40px;
+    color: #36626a;
+}
+
+.date {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 17px;
+    color: #36626a;
+}
+
+.icon {
+    width: 45px;
+}
+.description {
+    font-family: 'Alkatra', cursive;
+    color: #004445;
+}
+.humidity {
+    font-family: 'Alkatra', cursive;
+    display: inline;
+    padding-right: 30px;
+    color: #004445;
+}
+
+.speed {
+    font-family: 'Alkatra', cursive;
+    display: inline;
+    padding-left: 30px;
+    color: #004445;
+}
+
+.dailyForecast {
+    border: 2px solid #defcf9;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    max-width: 500px;
+    margin: 20px;
+    display: block;
+}
+.dayStyle{
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+.max {
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+.min {
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+.codeSource {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 18px;
+}
+.myCode {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    }
